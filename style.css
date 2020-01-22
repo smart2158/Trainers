@@ -224,6 +224,11 @@ li:hover a{
     height: 100%;
 }
 
+.banner{
+    width: 100%;
+    position: absolute;
+}
+
 
 
 
