@@ -224,22 +224,7 @@ li:hover a{
     height: 100%;
 }
 
-.block:first-of-type{
-    background-color: green;
-}
 
-.block{height: 300px;
-background-color: darkred}
-
-
-.block:last-of-type{
-    background-color: #374bff;
-    width: 800px;
-    margin: auto;
-    position: relative;
-    top: -20px;
-
-}
 
 
 
