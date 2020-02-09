@@ -237,6 +237,7 @@ li:hover a{border-bottom: solid 4px #fa090a;}
 .sub{
     max-width: 800px;
     margin: auto;
+    padding-bottom: 55px;
 }
 
 .sub_text{
@@ -248,8 +249,12 @@ li:hover a{border-bottom: solid 4px #fa090a;}
     padding-bottom: 35px;
     }
 
-.mail_address{
+.subscribe{
     display: flex;
+    justify-content: center;
+}
+
+.mail_address{
     min-width: 390px;
     line-height: 45px;
     color: #959595;
@@ -258,10 +263,10 @@ li:hover a{border-bottom: solid 4px #fa090a;}
     padding-left:40px;
     border-radius: 4px;
     border: none;
+    margin-right:17px;
 }
 
-.sub_now{display: flex;
-    flex: ;
+.sub_now{
     min-width: 315px;
     line-height: 55px;
     color:#ebebeb;
@@ -271,7 +276,53 @@ li:hover a{border-bottom: solid 4px #fa090a;}
     background-color: #fa090a;
     border-radius: 4px;
     border: none;
+    margin-left:17px;
 }
+
+.footer_bg{
+    background-color:#252525;
+    margin: auto;
+    padding-top:50px;
+
+}
+
+.footer_menu{
+
+    max-width: 1170px;
+    margin: auto;
+}
+.menu{display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+
+.icons_footer{
+    display: flex;
+    content: "";
+    padding-top: 44px;
+}
+
+.down{margin-right: 25px;
+    max-width: 54px;
+    max-height: 54px;
+    width: 100%;
+    height: 100%;
+}
+
+.logo_soc{display: inline-block;
+}
+
+
+.menu li{text-decoration: none;
+list-style: none}
+
+.menu a{text-decoration: none;
+        color: #ebebeb;
+        font-size: 14px;
+        line-height: 48px;}
+}
+
 
 
 
